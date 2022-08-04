@@ -19,8 +19,8 @@ let package = Package(
 		.target(
 			name: "JKVValue",
 		    path: "JKVValue/Sources",
-			publicHeadersPath: "include"
-
+			publicHeadersPath: "include",
+            cSettings: [.define("SWIFT_PACKAGE")]
 		)
 	]
 )
