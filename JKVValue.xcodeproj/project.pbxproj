@@ -48,8 +48,6 @@
 		1F8A37701B79D284001C8357 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A376E1B79D284001C8357 /* Quick.framework */; };
 		1F8A37751B79D2B6001C8357 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A37731B79D2B6001C8357 /* Nimble.framework */; };
 		1F8A37761B79D2B6001C8357 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8A37741B79D2B6001C8357 /* Quick.framework */; };
-		1F8A37781B79D321001C8357 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A37771B79D321001C8357 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F8A37791B79D321001C8357 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A37771B79D321001C8357 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F8A377C1B79D841001C8357 /* KeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A377B1B79D841001C8357 /* KeyedArchiver.m */; };
 		1F8A377D1B79D841001C8357 /* KeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A377B1B79D841001C8357 /* KeyedArchiver.m */; };
 		1F8A37801B79D8F2001C8357 /* KeyedUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A377F1B79D8F2001C8357 /* KeyedUnarchiver.m */; };
@@ -88,7 +86,6 @@
 		1FA1F8951EF7C05500CB71B6 /* JKVMutableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2CCAC817FCE78700A382AB /* JKVMutableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA1F8961EF7C05500CB71B6 /* JKVValueImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2CCAE617FD11ED00A382AB /* JKVValueImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA1F8971EF7C05500CB71B6 /* JKVFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB5D3381847382F00789483 /* JKVFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FA1F8981EF7C05500CB71B6 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A37771B79D321001C8357 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA1F8991EF7C05A00CB71B6 /* JKVObjectPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAFA9C91983A43800E464E1 /* JKVObjectPrinter.m */; };
 		1FA1F89A1EF7C05A00CB71B6 /* JKVMutableValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CCAC917FCE78700A382AB /* JKVMutableValue.m */; };
 		1FA1F89B1EF7C05A00CB71B6 /* JKVValueImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CCAE717FD11ED00A382AB /* JKVValueImpl.m */; };
@@ -139,7 +136,6 @@
 		1FBE49F01EF7BC4000BFD1EE /* JKVPersonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D3481847386D00789483 /* JKVPersonFactory.m */; };
 		1FBE49F11EF7BC4000BFD1EE /* KeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A377B1B79D841001C8357 /* KeyedArchiver.m */; };
 		1FBE49F21EF7BC4000BFD1EE /* KeyedUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A377F1B79D8F2001C8357 /* KeyedUnarchiver.m */; };
-		1FBE49F31EF7BC4600BFD1EE /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8A37771B79D321001C8357 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBE49F41EF7BC4C00BFD1EE /* JKVObjectPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAFA9C81983A43800E464E1 /* JKVObjectPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBE49F51EF7BC4C00BFD1EE /* JKVMutableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2CCAC817FCE78700A382AB /* JKVMutableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBE49F61EF7BC4C00BFD1EE /* JKVValueImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2CCAE617FD11ED00A382AB /* JKVValueImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -159,6 +155,10 @@
 		1FBE4A041EF7BCDF00BFD1EE /* JKVKeyedEncoderVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CCADA17FD0A8100A382AB /* JKVKeyedEncoderVisitor.m */; };
 		1FBE4A051EF7BCDF00BFD1EE /* JKVNonZeroSetterVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB5D34C18473BFF00789483 /* JKVNonZeroSetterVisitor.m */; };
 		1FBE4A061EF7BCDF00BFD1EE /* JKVProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CCACE17FCFAA700A382AB /* JKVProperty.m */; };
+		785759CE289C5A4200FFFD98 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 785759CD289C5A4200FFFD98 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785759CF289C5A4200FFFD98 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 785759CD289C5A4200FFFD98 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785759D0289C5A4200FFFD98 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 785759CD289C5A4200FFFD98 /* JKVValue.h */; };
+		785759D1289C5A4200FFFD98 /* JKVValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 785759CD289C5A4200FFFD98 /* JKVValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,23 +231,23 @@
 		1F2CCAB917FCE48E00A382AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F2CCABB17FCE48E00A382AB /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		1F2CCAC517FCE4D800A382AB /* JKVMutableValueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVMutableValueSpec.m; sourceTree = "<group>"; };
-		1F2CCAC817FCE78700A382AB /* JKVMutableValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVMutableValue.h; sourceTree = "<group>"; };
-		1F2CCAC917FCE78700A382AB /* JKVMutableValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVMutableValue.m; sourceTree = "<group>"; };
-		1F2CCACD17FCFAA700A382AB /* JKVProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVProperty.h; sourceTree = "<group>"; };
-		1F2CCACE17FCFAA700A382AB /* JKVProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVProperty.m; sourceTree = "<group>"; };
+		1F2CCAC817FCE78700A382AB /* JKVMutableValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVMutableValue.h; path = ../Sources/include/JKVMutableValue.h; sourceTree = "<group>"; };
+		1F2CCAC917FCE78700A382AB /* JKVMutableValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVMutableValue.m; path = ../Sources/JKVMutableValue.m; sourceTree = "<group>"; };
+		1F2CCACD17FCFAA700A382AB /* JKVProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVProperty.h; path = ../Sources/JKVProperty.h; sourceTree = "<group>"; };
+		1F2CCACE17FCFAA700A382AB /* JKVProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVProperty.m; path = ../Sources/JKVProperty.m; sourceTree = "<group>"; };
 		1F2CCAD217FCFFD900A382AB /* JKVMutablePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVMutablePerson.h; sourceTree = "<group>"; };
 		1F2CCAD317FCFFD900A382AB /* JKVMutablePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVMutablePerson.m; sourceTree = "<group>"; };
-		1F2CCAD517FD080F00A382AB /* JKVKeyedDecoderVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVKeyedDecoderVisitor.h; sourceTree = "<group>"; };
-		1F2CCAD617FD080F00A382AB /* JKVKeyedDecoderVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVKeyedDecoderVisitor.m; sourceTree = "<group>"; };
-		1F2CCAD917FD0A8100A382AB /* JKVKeyedEncoderVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVKeyedEncoderVisitor.h; sourceTree = "<group>"; };
-		1F2CCADA17FD0A8100A382AB /* JKVKeyedEncoderVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVKeyedEncoderVisitor.m; sourceTree = "<group>"; };
-		1F2CCADD17FD0C4400A382AB /* JKVClassInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVClassInspector.h; sourceTree = "<group>"; };
-		1F2CCADE17FD0C4400A382AB /* JKVClassInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVClassInspector.m; sourceTree = "<group>"; };
+		1F2CCAD517FD080F00A382AB /* JKVKeyedDecoderVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVKeyedDecoderVisitor.h; path = ../Sources/JKVKeyedDecoderVisitor.h; sourceTree = "<group>"; };
+		1F2CCAD617FD080F00A382AB /* JKVKeyedDecoderVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVKeyedDecoderVisitor.m; path = ../Sources/JKVKeyedDecoderVisitor.m; sourceTree = "<group>"; };
+		1F2CCAD917FD0A8100A382AB /* JKVKeyedEncoderVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVKeyedEncoderVisitor.h; path = ../Sources/JKVKeyedEncoderVisitor.h; sourceTree = "<group>"; };
+		1F2CCADA17FD0A8100A382AB /* JKVKeyedEncoderVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVKeyedEncoderVisitor.m; path = ../Sources/JKVKeyedEncoderVisitor.m; sourceTree = "<group>"; };
+		1F2CCADD17FD0C4400A382AB /* JKVClassInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVClassInspector.h; path = ../Sources/JKVClassInspector.h; sourceTree = "<group>"; };
+		1F2CCADE17FD0C4400A382AB /* JKVClassInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVClassInspector.m; path = ../Sources/JKVClassInspector.m; sourceTree = "<group>"; };
 		1F2CCAE117FD10F600A382AB /* JKVPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVPerson.h; sourceTree = "<group>"; };
 		1F2CCAE217FD10F600A382AB /* JKVPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVPerson.m; sourceTree = "<group>"; };
 		1F2CCAE417FD112100A382AB /* JKVValueSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVValueSpec.m; sourceTree = "<group>"; };
-		1F2CCAE617FD11ED00A382AB /* JKVValueImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVValueImpl.h; sourceTree = "<group>"; };
-		1F2CCAE717FD11ED00A382AB /* JKVValueImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVValueImpl.m; sourceTree = "<group>"; };
+		1F2CCAE617FD11ED00A382AB /* JKVValueImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVValueImpl.h; path = ../Sources/include/JKVValueImpl.h; sourceTree = "<group>"; };
+		1F2CCAE717FD11ED00A382AB /* JKVValueImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVValueImpl.m; path = ../Sources/JKVValueImpl.m; sourceTree = "<group>"; };
 		1F2CCAEA17FD180500A382AB /* JKVTypeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVTypeContainer.h; sourceTree = "<group>"; };
 		1F2CCAEB17FD180500A382AB /* JKVTypeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVTypeContainer.m; sourceTree = "<group>"; };
 		1F3FCE751801B8E400A929F5 /* JKVCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVCollections.h; sourceTree = "<group>"; };
@@ -263,7 +263,6 @@
 		1F8A376E1B79D284001C8357 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		1F8A37731B79D2B6001C8357 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
 		1F8A37741B79D2B6001C8357 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
-		1F8A37771B79D321001C8357 /* JKVValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVValue.h; sourceTree = "<group>"; };
 		1F8A377A1B79D841001C8357 /* KeyedArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyedArchiver.h; sourceTree = "<group>"; };
 		1F8A377B1B79D841001C8357 /* KeyedArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyedArchiver.m; sourceTree = "<group>"; };
 		1F8A377E1B79D8F2001C8357 /* KeyedUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyedUnarchiver.h; sourceTree = "<group>"; };
@@ -276,19 +275,20 @@
 		1FA39D5318D544AD0066061C /* JKVValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKVValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA39D9518D545BF0066061C /* JKVValue-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JKVValue-Info.plist"; sourceTree = "<group>"; };
 		1FAFA9BA19839C7800E464E1 /* JKVObjectPrinterSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVObjectPrinterSpec.m; sourceTree = "<group>"; };
-		1FAFA9C81983A43800E464E1 /* JKVObjectPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVObjectPrinter.h; sourceTree = "<group>"; };
-		1FAFA9C91983A43800E464E1 /* JKVObjectPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVObjectPrinter.m; sourceTree = "<group>"; };
-		1FAFA9CE1983A65500E464E1 /* JKVObjectPrinter-Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKVObjectPrinter-Protected.h"; sourceTree = "<group>"; };
-		1FB5D3381847382F00789483 /* JKVFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVFactory.h; sourceTree = "<group>"; };
-		1FB5D3391847382F00789483 /* JKVFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVFactory.m; sourceTree = "<group>"; };
+		1FAFA9C81983A43800E464E1 /* JKVObjectPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVObjectPrinter.h; path = ../Sources/include/JKVObjectPrinter.h; sourceTree = "<group>"; };
+		1FAFA9C91983A43800E464E1 /* JKVObjectPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVObjectPrinter.m; path = ../Sources/JKVObjectPrinter.m; sourceTree = "<group>"; };
+		1FAFA9CE1983A65500E464E1 /* JKVObjectPrinter-Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JKVObjectPrinter-Protected.h"; path = "../Sources/JKVObjectPrinter-Protected.h"; sourceTree = "<group>"; };
+		1FB5D3381847382F00789483 /* JKVFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVFactory.h; path = ../Sources/include/JKVFactory.h; sourceTree = "<group>"; };
+		1FB5D3391847382F00789483 /* JKVFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVFactory.m; path = ../Sources/JKVFactory.m; sourceTree = "<group>"; };
 		1FB5D3441847384500789483 /* JKVFactorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVFactorySpec.m; sourceTree = "<group>"; };
 		1FB5D3471847386D00789483 /* JKVPersonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVPersonFactory.h; sourceTree = "<group>"; };
 		1FB5D3481847386D00789483 /* JKVPersonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVPersonFactory.m; sourceTree = "<group>"; };
-		1FB5D34B18473BFF00789483 /* JKVNonZeroSetterVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKVNonZeroSetterVisitor.h; sourceTree = "<group>"; };
-		1FB5D34C18473BFF00789483 /* JKVNonZeroSetterVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKVNonZeroSetterVisitor.m; sourceTree = "<group>"; };
+		1FB5D34B18473BFF00789483 /* JKVNonZeroSetterVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVNonZeroSetterVisitor.h; path = ../Sources/JKVNonZeroSetterVisitor.h; sourceTree = "<group>"; };
+		1FB5D34C18473BFF00789483 /* JKVNonZeroSetterVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JKVNonZeroSetterVisitor.m; path = ../Sources/JKVNonZeroSetterVisitor.m; sourceTree = "<group>"; };
 		1FB745D217FE5FFC00572B60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1FBE49CA1EF7BC0C00BFD1EE /* JKVValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKVValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBE49D21EF7BC0C00BFD1EE /* JKVValue-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JKVValue-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		785759CD289C5A4200FFFD98 /* JKVValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JKVValue.h; path = Sources/include/JKVValue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -407,6 +407,7 @@
 		1F2CCA8617FCE3D700A382AB /* JKVValue */ = {
 			isa = PBXGroup;
 			children = (
+				785759CD289C5A4200FFFD98 /* JKVValue.h */,
 				1F2CCACC17FCFA8C00A382AB /* Private */,
 				1F2CCAC717FCE76E00A382AB /* Public */,
 				1F2CCA8717FCE3D700A382AB /* Supporting Files */,
@@ -465,7 +466,6 @@
 				1F2CCAE717FD11ED00A382AB /* JKVValueImpl.m */,
 				1FB5D3381847382F00789483 /* JKVFactory.h */,
 				1FB5D3391847382F00789483 /* JKVFactory.m */,
-				1F8A37771B79D321001C8357 /* JKVValue.h */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -554,10 +554,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8A37781B79D321001C8357 /* JKVValue.h in Headers */,
 				1F8A37231B79CE71001C8357 /* JKVValueImpl.h in Headers */,
 				1F8A37211B79CE71001C8357 /* JKVMutableValue.h in Headers */,
 				1F8A371F1B79CE71001C8357 /* JKVObjectPrinter.h in Headers */,
+				785759CE289C5A4200FFFD98 /* JKVValue.h in Headers */,
 				1F8A372B1B79CE76001C8357 /* JKVKeyedEncoderVisitor.h in Headers */,
 				1F8A372D1B79CE76001C8357 /* JKVNonZeroSetterVisitor.h in Headers */,
 				1F8A372F1B79CE76001C8357 /* JKVProperty.h in Headers */,
@@ -572,7 +572,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA1F8981EF7C05500CB71B6 /* JKVValue.h in Headers */,
+				785759D0289C5A4200FFFD98 /* JKVValue.h in Headers */,
 				1FA1F88E1EF7C04B00CB71B6 /* JKVObjectPrinter-Protected.h in Headers */,
 				1FA1F8971EF7C05500CB71B6 /* JKVFactory.h in Headers */,
 				1FA1F88C1EF7C04B00CB71B6 /* JKVNonZeroSetterVisitor.h in Headers */,
@@ -593,6 +593,7 @@
 				1FA39D8918D544CC0066061C /* JKVValueImpl.h in Headers */,
 				1F8A37321B79CE78001C8357 /* JKVObjectPrinter-Protected.h in Headers */,
 				1FA39D8E18D5456B0066061C /* JKVKeyedDecoderVisitor.h in Headers */,
+				785759CF289C5A4200FFFD98 /* JKVValue.h in Headers */,
 				1FA39D8D18D5456B0066061C /* JKVClassInspector.h in Headers */,
 				1FA39D9118D5456B0066061C /* JKVProperty.h in Headers */,
 				1FA39D8F18D5456B0066061C /* JKVKeyedEncoderVisitor.h in Headers */,
@@ -600,7 +601,6 @@
 				1FAFA9CA1983A43800E464E1 /* JKVObjectPrinter.h in Headers */,
 				1FA39D8B18D544CC0066061C /* JKVFactory.h in Headers */,
 				1FA39D8718D544CC0066061C /* JKVMutableValue.h in Headers */,
-				1F8A37791B79D321001C8357 /* JKVValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,13 +611,13 @@
 				1FBE49FE1EF7BC5D00BFD1EE /* JKVKeyedEncoderVisitor.h in Headers */,
 				1FBE49F41EF7BC4C00BFD1EE /* JKVObjectPrinter.h in Headers */,
 				1FBE49FD1EF7BC5D00BFD1EE /* JKVKeyedDecoderVisitor.h in Headers */,
+				785759D1289C5A4200FFFD98 /* JKVValue.h in Headers */,
 				1FBE49F71EF7BC4C00BFD1EE /* JKVFactory.h in Headers */,
 				1FBE49FC1EF7BC5D00BFD1EE /* JKVClassInspector.h in Headers */,
 				1FBE49F51EF7BC4C00BFD1EE /* JKVMutableValue.h in Headers */,
 				1FBE4A001EF7BC5D00BFD1EE /* JKVProperty.h in Headers */,
 				1FBE4A011EF7BC5D00BFD1EE /* JKVObjectPrinter-Protected.h in Headers */,
 				1FBE49FF1EF7BC5D00BFD1EE /* JKVNonZeroSetterVisitor.h in Headers */,
-				1FBE49F31EF7BC4600BFD1EE /* JKVValue.h in Headers */,
 				1FBE49F61EF7BC4C00BFD1EE /* JKVValueImpl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -775,7 +775,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastTestingUpgradeCheck = 0600;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "Jeff Hui";
 				TargetAttributes = {
 					1F8A37001B79CDD6001C8357 = {
@@ -803,10 +803,11 @@
 			};
 			buildConfigurationList = 1F2CCA7C17FCE3D700A382AB /* Build configuration list for PBXProject "JKVValue" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 1F2CCA7817FCE3D700A382AB;
 			productRefGroup = 1F2CCA8217FCE3D700A382AB /* Products */;
@@ -1047,19 +1048,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1084,7 +1095,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -1094,19 +1105,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1124,7 +1145,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1151,7 +1172,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "JKVValue/JKVValue-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.JKVValue;
@@ -1186,7 +1207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = "JKVValue/JKVValue-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.JKVValue;
@@ -1214,7 +1235,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = JKVValueTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.JKVValueTests;
@@ -1240,7 +1261,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = JKVValueTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.jeffhui.JKVValueTests;
@@ -1256,7 +1277,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1273,7 +1294,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1508,7 +1529,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1542,7 +1563,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1567,7 +1588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.JKVValue-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
@@ -1591,7 +1612,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.jeffhui.JKVValue-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TVOS_DEPLOYMENT_TARGET = 10.2;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -1641,6 +1662,7 @@
 				1FA1F8881EF7C03300CB71B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FA39D3918D541ED0066061C /* Build configuration list for PBXNativeTarget "JKVValue-OSXTests" */ = {
 			isa = XCConfigurationList;

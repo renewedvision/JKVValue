@@ -156,7 +156,7 @@ describe(@"JKVValue", ^{
             });
         });
 
-        void (^itShouldNotEqualWhen)(NSString *, NSString *, void(^)()) = ^(NSString *name, NSString *fieldName, void(^mutator)()) {
+        void (^itShouldNotEqualWhen)(NSString *, NSString *, void(^)(void)) = ^(NSString *name, NSString *fieldName, void(^mutator)(void)) {
             context([NSString stringWithFormat:@"when the %@ is not equivalent in value", name], ^{
                 beforeEach(^{
                     mutator();
@@ -531,7 +531,7 @@ describe(@"JKVValue", ^{
                 otherObject = [[JKVRestrictedObject alloc] initWithPresetData];
             });
 
-            void (^itShouldNotEqualWhen)(NSString *, void(^)()) = ^(NSString *name, void(^mutator)()) {
+            void (^itShouldNotEqualWhen)(NSString *, void(^)(void)) = ^(NSString *name, void(^mutator)(void)) {
                 context([NSString stringWithFormat:@"when the %@ is not equivalent in value", name], ^{
                     it(@"should not be equal", ^{
                         mutator();
@@ -540,7 +540,7 @@ describe(@"JKVValue", ^{
                 });
             };
 
-            void (^itShouldEqualWhen)(NSString *, void(^)()) = ^(NSString *name, void(^mutator)()) {
+            void (^itShouldEqualWhen)(NSString *, void(^)(void)) = ^(NSString *name, void(^mutator)(void)) {
                 context([NSString stringWithFormat:@"when the %@ is not equivalent in value", name], ^{
                     it(@"should be equal", ^{
                         mutator();

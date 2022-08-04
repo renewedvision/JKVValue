@@ -71,7 +71,7 @@ describe(@"JKVMutableValue", ^{
             expect(person).toNot(equal((id)@1));
         });
 
-        void (^itShouldNotEqualWhen)(NSString *, void(^)()) = ^(NSString *name, void(^mutator)()) {
+        void (^itShouldNotEqualWhen)(NSString *, void(^)(void)) = ^(NSString *name, void(^mutator)(void)) {
             context([NSString stringWithFormat:@"when the %@ is not equivalent in value", name], ^{
                 it(@"should not be equal", ^{
                     mutator();

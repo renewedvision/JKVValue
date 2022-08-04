@@ -10,7 +10,7 @@ describe(@"JKVFactory", ^{
     __block JKVFactory *factory;
     __block JKVPerson *person;
 
-    void (^itShouldBeAPersonObjectWithNonNilValues)() = ^{
+    void (^itShouldBeAPersonObjectWithNonNilValues)(void) = ^{
         context(@"(behaves like a person object with non-nil values)", ^{
             it(@"should return an instance of the given object", ^{
                 expect(person).to(beAnInstanceOf([JKVPerson class]));
@@ -31,7 +31,7 @@ describe(@"JKVFactory", ^{
         });
     };
 
-    void (^itShouldBehaveLikeAPersonObjectWithModifiedDefaults)() = ^{
+    void (^itShouldBehaveLikeAPersonObjectWithModifiedDefaults)(void) = ^{
         context(@"(behaves like a person object with modified defaults)", ^{
             it(@"should return an instance of the given object", ^{
                 expect(person).to(beAnInstanceOf([JKVPerson class]));
@@ -50,7 +50,7 @@ describe(@"JKVFactory", ^{
         });
     };
 
-    void (^itShouldBehaveLikeAPersonFactoryInstance)() = ^{
+    void (^itShouldBehaveLikeAPersonFactoryInstance)(void) = ^{
         context(@"(behaves like a person factory instance)", ^{
             describe(@"building an object", ^{
                 beforeEach(^{
