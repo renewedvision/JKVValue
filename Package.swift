@@ -20,7 +20,8 @@ let package = Package(
 			name: "JKVValue",
 		    path: "JKVValue/Sources",
 			publicHeadersPath: "include",
-            cSettings: [.define("SWIFT_PACKAGE")]
+            cSettings: [.define("SWIFT_PACKAGE")],
+            swiftSettings: [.define("SWIFT_PACKAGE")]
 		)
 	]
 )
