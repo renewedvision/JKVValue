@@ -1,4 +1,4 @@
-#if SWIFT_PACKAGE
+#ifdef SWIFT_PACKAGE
     #import "JKVValueImpl.h"
 #else
     #import <JKVValueImpl.h>

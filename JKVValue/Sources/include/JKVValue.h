@@ -1,4 +1,4 @@
-#if SWIFT_PACKAGE
+#ifdef SWIFT_PACKAGE
     #import "JKVValueImpl.h"
     #import "JKVMutableValue.h"
     #import "JKVObjectPrinter.h"
