@@ -1,7 +1,7 @@
-#ifndef SWIFT_PACKAGE
-    #import <JKVValueImpl.h>
-#else
+#if SWIFT_PACKAGE
     #import "JKVValueImpl.h"
+#else
+    #import <JKVValueImpl.h>
 #endif
 
 /*! JKVMutableValue represents an Immutable Value Object class that should be subclassed to use.
